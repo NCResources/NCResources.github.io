@@ -1,8 +1,4 @@
-// Fetch the content of code.txt
-fetch('code.txt')
-    .then(response => response.text())
-    .then(codeData => {
-        // Update the content in index.html
-        document.getElementById('code').innerText = codeData;
-    })
-    .catch(error => console.error('Error fetching code.txt:', error));
+code1 = fetch('code.txt');
+code2 = fetch('mad-code.txt');
+document.getElementById('mainCode').innerText = "Main: " + code1;
+document.getElementById('madCode').innerText = "Drive mad: " + code2;
