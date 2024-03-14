@@ -1,4 +1,6 @@
-code1 = fetch('code.txt');
-code2 = fetch('mad-code.txt');
-document.getElementById('mainCode').innerText = "Main: " + code1;
-document.getElementById('madCode').innerText = "Drive mad: " + code2;
+mainCode = fetch("main-code.txt");
+madCode = fetch("mad-code.txt");
+cookieCode = fetch ("cookie-code.txt")
+document.getElementById('mainCode').innerText = "Main: " + mainCode;
+document.getElementById('madCode').innerText = "Drive mad: " + madCode;
+document.getElementById('cookieCode').innerText = "Cookie Clicker: " + cookieCode;
