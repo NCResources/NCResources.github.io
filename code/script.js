@@ -1,7 +1,7 @@
 function fetchCodes(){
-mainCode = fetch("main-code.txt");
-madCode = fetch("mad-code.txt");
-cookieCode = fetch ("cookie-code.txt")
+const mainCode = await fetch("main-code.txt");
+const madCode = await fetch("mad-code.txt");
+const cookieCode = await fetch ("cookie-code.txt")
 
 document.getElementById('main-code').innerText = "Main: " + mainCode;
 document.getElementById('mad-code').innerText = "Drive mad: " + madCode;
