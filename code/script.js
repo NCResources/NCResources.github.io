@@ -1,7 +1,7 @@
-mainCode = fetch("main-code.txt");
-madCode = fetch("mad-code.txt");
-cookieCode = fetch ("cookie-code.txt")
+main-code = fetch("main-code.txt");
+mad-code = fetch("mad-code.txt");
+cookie-code = fetch ("cookie-code.txt")
 
-document.getElementById('mainCode').innerText = "Main: " + mainCode;
-document.getElementById('madCode').innerText = "Drive mad: " + madCode;
-document.getElementById('cookieCode').innerText = "Cookie Clicker: " + cookieCode;
+document.getElementById('main-code').innerText = "Main: " + main-code;
+document.getElementById('mad-code').innerText = "Drive mad: " + mad-code;
+document.getElementById('cookie-code').innerText = "Cookie Clicker: " + cookie-code;
